@@ -1,7 +1,10 @@
-const StartImg = () => {
+import './styles/StartImg.css'
+import art from './img/title-art.png';
+
+function StartImg() {
     return ( 
-        <div className="start-img">
-            <p>IMAGE HERE</p>
+        <div className="start-art">
+            <img src={art} />
         </div>
      );
 }

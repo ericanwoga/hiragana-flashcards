@@ -1,0 +1,12 @@
+.start-art { /*bottom flex box*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    row-gap: 30px; /*40 or 260*/
+}
+
+.start-art img { /*bottom flex box*/
+    width: 100%;
+    height: auto;
+}

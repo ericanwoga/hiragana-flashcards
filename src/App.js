@@ -1,6 +1,8 @@
-import './App.css';
 import StartTitle from './StartTitle';
+//import StartButton from './StartButton';
 import StartImg from './StartImg';
+import './styles/App.css';
+
 function App() {
 
   return (

@@ -1,0 +1,8 @@
+.content{ /*all the content*/
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between; /*aligns vertically*/
+    align-items: center; /*aligns horizontally*/
+    height: 101vh;
+    max-width: 615px; /*maximum size is a tablet*/
+}
