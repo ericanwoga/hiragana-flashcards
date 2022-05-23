@@ -1,5 +1,4 @@
-import './styles/StartTitle.css'
-import './styles/StartButton.css'
+import './styles/Start.css'
 
 function StartTitle() {
     return ( 

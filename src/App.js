@@ -1,16 +1,16 @@
 import StartTitle from './StartTitle';
-//import StartButton from './StartButton';
 import StartImg from './StartImg';
-import './styles/App.css';
+import './styles/App.css'
+import './styles/Start.css';
 
 function App() {
 
   return (
     <div className="App"> 
-    <div className="content">
-      <StartTitle /> {/*We import our components here*/}
-      <StartImg />
-    </div>
+      <div className="content">
+        <StartTitle /> {/*We import our components here*/}
+        <StartImg />
+      </div>
     </div>
   );
 }

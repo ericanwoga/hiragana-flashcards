@@ -1,4 +1,4 @@
-import './styles/StartImg.css'
+import './styles/Start.css'
 import art from './img/title-art.png';
 
 function StartImg() {

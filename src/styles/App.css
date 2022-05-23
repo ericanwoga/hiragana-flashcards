@@ -1,8 +1,18 @@
-.content{ /*all the content*/
+html {
+    /*Entire website background*/
+    background-color: rgb(255, 243, 243);
+    position: fixed;
+    height: 100%;
+    width: 100%; 
+    overflow: hidden;
+  }
+
+body {
     display: flex;
     flex-direction: column;
-    justify-content:space-between; /*aligns vertically*/
-    align-items: center; /*aligns horizontally*/
-    height: 101vh;
-    max-width: 615px; /*maximum size is a tablet*/
-}
+    align-items: center;
+  
+    height: 101vh; /*101 becuase the image should be at the bottom*/
+    width: 100vw;
+    margin: 0;
+  }

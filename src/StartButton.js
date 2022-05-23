@@ -1,1 +1,1 @@
-import './styles/StartButton.css'
+import './styles/Start.css'
