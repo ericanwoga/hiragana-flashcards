@@ -2,7 +2,7 @@
 
 /*All the Start Page component styling*/
 
-.content{ /*all the content*/
+.Start { /*all the content*/
     display: flex;
     flex-direction: column;
     justify-content:space-between; /*aligns vertically*/

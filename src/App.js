@@ -1,15 +1,12 @@
-import StartTitle from './StartTitle';
-import StartImg from './StartImg';
+import Start from './Start';
 import './styles/App.css'
-import './styles/Start.css';
 
 function App() {
 
   return (
     <div className="App"> 
       <div className="content">
-        <StartTitle /> {/*We import our components here*/}
-        <StartImg />
+        <Start /> {/*We import our various components here*/}
       </div>
     </div>
   );
