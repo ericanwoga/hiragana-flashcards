@@ -1,4 +1,5 @@
-[
+{
+  "hiraganaDictionary": [
     {
       "hiragana": "あ",
       "english": "a"
@@ -416,3 +417,4 @@
       "english": "pyo"
     }
   ]
+}
