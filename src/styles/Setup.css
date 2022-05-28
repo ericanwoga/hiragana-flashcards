@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=Quicksand:wght@300;400;500;600&display=swap');
+
+/*All the Setup Page component styling*/
+
+.Setup { /*all the content*/
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /*aligns vertically*/
+    align-items: center; /*aligns horizontally*/
+    height: 100%;
+    max-width: 615px; /*maximum size is a tablet*/
+}
 
 .setup-title-box { /*top flex box*/
     display: flex;
@@ -38,6 +50,16 @@
     margin-bottom: 10%;
 }
 
+#setup-form-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+    width: 100%;
+    
+}
+
 #lesson-amount {
     display: flex;
     flex-direction: column;
@@ -64,6 +86,7 @@
   }
 
   [contenteditable] {
+      /*For the user input box*/
     outline: 0px solid transparent;
   }
 
@@ -85,26 +108,25 @@
 
 }
 
-.setup-button {
+#setup-button-text {
     display: inline-flex;
     background-color: rgb(254,254,254);
     border-radius: 7px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 40%;
-    height: 5%;
+    width: 44%;
+    height: 7%;
     border: none;
     padding: 6px;
-}
 
-#setup-button-text {
     font-size: 20px;
     font-weight: bold;
     font-family: 'Quicksand', sans-serif;
     color:rgb(221, 180, 141);
     text-align: center;
-    transition-duration: 0.1s;
+
+    transition-duration: 0.2s;
     cursor: pointer;
 }
 

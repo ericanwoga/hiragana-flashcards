@@ -69,21 +69,21 @@
     height: 20%;
     border: none;
     padding: 6px;
-    
+}
+
+#start-button-text {
     font-size: 20px;
     font-weight: bold;
     font-family: 'Quicksand', sans-serif;
     color:rgb(221, 180, 141);
     text-align: center;
+    text-decoration-line: none;
 
-    transition-duration: 0.1s;
+    transition-duration: 0.2s;
     cursor: pointer;
 }
 
-.start-button p {
-    margin: 0;
-}
-.start-button:hover {
+#start-button-text:hover {
     color: rgb(204, 119, 119);
 }
 
