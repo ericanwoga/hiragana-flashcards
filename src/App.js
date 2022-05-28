@@ -1,17 +1,22 @@
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Start from './pages/Start';
+import Setup from './pages/Setup';
+
 import './styles/App.css';
-import hira from './data/data.json';
 
 function App() {
 
-  let name = hira.hiraganaDictionary[3].hiragana;
-
   return (
-    <div className="App"> 
-      <div className="content">
-        <Start x={name} /> {/*We import our various components here*/}
+    <Router>
+      <div className="App"> 
+        <div className="content">
+          <Routes> {/*All page routes will show inside the content section*/}
+            <Route exact path="/" element={<Start />} /> {/*Home page is called Start*/}
+            <Route exact path="/setup" element={<Setup />} />
+          </Routes>
+        </div>
       </div>
-    </div>
+    </Router>
   );
 }
 
