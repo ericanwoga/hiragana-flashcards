@@ -1,8 +1,8 @@
-import StartTitle from './StartTitle';
-import StartImg from './StartImg';
+import StartTitle from './components/StartTitle';
+import StartImg from './components/StartImg';
 import './styles/Start.css';
 
-const Start = () => {
+function Start() {
     return ( 
         <div className="Start">
             <StartTitle />

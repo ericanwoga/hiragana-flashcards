@@ -96,7 +96,7 @@
     row-gap: 30px; /*40 or 260*/
 }
 
-.start-art img { /*bottom flex box*/
+.start-art img { 
     width: 100%;
     height: auto;
 }

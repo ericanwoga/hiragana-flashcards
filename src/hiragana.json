@@ -1,0 +1,418 @@
+[
+    {
+      "hiragana": "あ",
+      "english": "a"
+    },
+    {
+      "hiragana": "い",
+      "english": "i"
+    },
+    {
+      "hiragana": "う",
+      "english": "u"
+    },
+    {
+      "hiragana": "え",
+      "english": "e"
+    },
+    {
+      "hiragana": "お",
+      "english": "o"
+    },
+    {
+      "hiragana": "か",
+      "english": "ka"
+    },
+    {
+      "hiragana": "き",
+      "english": "ki"
+    },
+    {
+      "hiragana": "く",
+      "english": "ku"
+    },
+    {
+      "hiragana": "け",
+      "english": "ke"
+    },
+    {
+      "hiragana": "こ",
+      "english": "ko"
+    },
+    {
+      "hiragana": "さ",
+      "english": "sa"
+    },
+    {
+      "hiragana": "し",
+      "english": "shi"
+    },
+    {
+      "hiragana": "す",
+      "english": "su"
+    },
+    {
+      "hiragana": "せ",
+      "english": "se"
+    },
+    {
+      "hiragana": "そ",
+      "english": "so"
+    },
+    {
+      "hiragana": "た",
+      "english": "ta"
+    },
+    {
+      "hiragana": "ち ",
+      "english": "chi"
+    },
+    {
+      "hiragana": "つ",
+      "english": "tsu"
+    },
+    {
+      "hiragana": "て",
+      "english": "te"
+    },
+    {
+      "hiragana": "と",
+      "english": "to"
+    },
+    {
+      "hiragana": "な",
+      "english": "na"
+    },
+    {
+      "hiragana": "に",
+      "english": "ni"
+    },
+    {
+      "hiragana": "ぬ",
+      "english": "nu"
+    },
+    {
+      "hiragana": "ね",
+      "english": "ne"
+    },
+    {
+      "hiragana": "の",
+      "english": "no"
+    },
+    {
+      "hiragana": "は",
+      "english": "ha"
+    },
+    {
+      "hiragana": "ひ",
+      "english": "hi"
+    },
+    {
+      "hiragana": "ふ",
+      "english": "fu"
+    },
+    {
+      "hiragana": "へ",
+      "english": "he"
+    },
+    {
+      "hiragana": "ほ",
+      "english": "ho"
+    },
+    {
+      "hiragana": "ま",
+      "english": "ma"
+    },
+    {
+      "hiragana": "み",
+      "english": "mi"
+    },
+    {
+      "hiragana": "む",
+      "english": "mu"
+    },
+    {
+      "hiragana": "め",
+      "english": "me"
+    },
+    {
+      "hiragana": "も",
+      "english": "mo"
+    },
+    {
+      "hiragana": "や",
+      "english": "ya"
+    },
+    {
+      "hiragana": "ゆ",
+      "english": "ya"
+    },
+    {
+      "hiragana": "よ",
+      "english": "yo"
+    },
+    {
+      "hiragana": "ら",
+      "english": "ra"
+    },
+    {
+      "hiragana": "り",
+      "english": "ri"
+    },
+    {
+      "hiragana": "る",
+      "english": "ru"
+    },
+    {
+      "hiragana": "れ",
+      "english": "re"
+    },
+    {
+      "hiragana": "ろ",
+      "english": "ro"
+    },
+    {
+      "hiragana": "わ",
+      "english": "wa"
+    },
+    {
+      "hiragana": "を",
+      "english": "wo"
+    },
+    {
+      "hiragana": "ん",
+      "english": "n"
+    },
+    {
+      "hiragana": "か",
+      "english": "ga"
+    },
+    {
+      "hiragana": "き",
+      "english": "gi"
+    },
+    {
+      "hiragana": "く",
+      "english": "gu"
+    },
+    {
+      "hiragana": "け",
+      "english": "ge"
+    },
+    {
+      "hiragana": "こ",
+      "english": "go"
+    },
+    {
+      "hiragana": "ざ",
+      "english": "za"
+    },
+    {
+      "hiragana": "じ",
+      "english": "ji"
+    },
+    {
+      "hiragana": "ず",
+      "english": "zu"
+    },
+    {
+      "hiragana": "ぜ",
+      "english": "ze"
+    },
+    {
+      "hiragana": "ぞ",
+      "english": "zo"
+    },
+    {
+      "hiragana": "だ",
+      "english": "da"
+    },
+    {
+      "hiragana": "ぢ",
+      "english": "ji"
+    },
+    {
+      "hiragana": "づ",
+      "english": "zu"
+    },
+    {
+      "hiragana": "で",
+      "english": "de"
+    },
+    {
+      "hiragana": "ど",
+      "english": "do"
+    },
+    {
+      "hiragana": "ば",
+      "english": "ba"
+    },
+    {
+      "hiragana": "び",
+      "english": "bi"
+    },
+    {
+      "hiragana": "ぶ",
+      "english": "bu"
+    },
+    {
+      "hiragana": "べ",
+      "english": "be"
+    },
+    {
+      "hiragana": "ぼ",
+      "english": "bo"
+    },
+    {
+      "hiragana": "ぱ",
+      "english": "pa"
+    },
+    {
+      "hiragana": "ぴ",
+      "english": "pi"
+    },
+    {
+      "hiragana": "ぷ",
+      "english": "pu"
+    },
+    {
+      "hiragana": "ぺ",
+      "english": "pe"
+    },
+    {
+      "hiragana": "ぽ",
+      "english": "po"
+    },
+    {
+      "hiragana": "きゃ",
+      "english": "kya"
+    },
+    {
+      "hiragana": "きゅ",
+      "english": "kyu"
+    },
+    {
+      "hiragana": "きょ",
+      "english": "kyo"
+    },
+    {
+      "hiragana": "しゃ",
+      "english": "sha"
+    },
+    {
+      "hiragana": "しゅ",
+      "english": "shu"
+    },
+    {
+      "hiragana": "しょ",
+      "english": "sho"
+    },
+    {
+      "hiragana": "ちゃ",
+      "english": "cha"
+    },
+    {
+      "hiragana": "ちゅ",
+      "english": "chu"
+    },
+    {
+      "hiragana": "ちょ",
+      "english": "cho"
+    },
+    {
+      "hiragana": "にゃ",
+      "english": "nya"
+    },
+    {
+      "hiragana": "にゅ",
+      "english": "nyu"
+    },
+    {
+      "hiragana": "にょ",
+      "english": "nyo"
+    },
+    {
+      "hiragana": "ひゃ",
+      "english": "hya"
+    },
+    {
+      "hiragana": "ひゅ",
+      "english": "hyu"
+    },
+    {
+      "hiragana": "ひょ",
+      "english": "hyo"
+    },
+    {
+      "hiragana": "みゃ",
+      "english": "mya"
+    },
+    {
+      "hiragana": "みゅ",
+      "english": "myu"
+    },
+    {
+      "hiragana": "みょ",
+      "english": "myo"
+    },
+    {
+      "hiragana": "りゃ",
+      "english": "rya"
+    },
+    {
+      "hiragana": "りゅ",
+      "english": "ryu"
+    },
+    {
+      "hiragana": "りょ",
+      "english": "ryo"
+    },
+    {
+      "hiragana": "ぎゃ",
+      "english": "gya"
+    },
+    {
+      "hiragana": "ぎゅ",
+      "english": "gyu "
+    },
+    {
+      "hiragana": "ぎょ",
+      "english": "gyo"
+    },
+    {
+      "hiragana": "じゃ",
+      "english": "ja"
+    },
+    {
+      "hiragana": "じゅ",
+      "english": "ju"
+    },
+    {
+      "hiragana": "じょ",
+      "english": "jo"
+    },
+    {
+      "hiragana": "びゃ",
+      "english": "bya"
+    },
+    {
+      "hiragana": "びゅ",
+      "english": "byu"
+    },
+    {
+      "hiragana": "びょ",
+      "english": "byo"
+    },
+    {
+      "hiragana": "ぴゃ",
+      "english": "pya"
+    },
+    {
+      "hiragana": "ぴゅ",
+      "english": "pyu"
+    },
+    {
+      "hiragana": "ぴょ",
+      "english": "pyo"
+    }
+  ]
