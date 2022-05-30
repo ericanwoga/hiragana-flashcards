@@ -1,8 +1,6 @@
 const SetupButton = () => {
-
-
     return ( 
-            <button id="setup-button-text">done</button>
+        <button id="setup-button-text">done</button>
      );
 }
  
