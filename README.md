@@ -10,12 +10,12 @@ For this project, I utilized Javascript, HTML, CSS, and the React JS Library. I 
 
 ## Start
 
-- Click the start button to launch the `setup` page
+- Click the **start** button to launch the `setup` page
 
 ## Setup
 
 - Enter the number of questions you would like the practice in the "##" box.
 - Please enter a number between **1 and 104 (inclusive)**, as that is the amount of hiragana available.
-- Click *done* to launch the `quiz` page.
+- Click the **done** button to launch the `quiz` page.
 
 ## Quiz
