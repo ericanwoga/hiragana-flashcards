@@ -4,7 +4,6 @@ import '../styles/Start.css'
 
 const StartButton = () => {
     const startButtonClicked = () => {
-        /*console.log("Hello!!");*/
     }
 
     return ( 

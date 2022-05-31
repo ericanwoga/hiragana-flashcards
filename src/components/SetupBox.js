@@ -4,16 +4,17 @@ import { useNavigate } from 'react-router-dom';
 import SetupButton from "./SetupButton"
 import '../styles/Setup.css';
 
-function SetupBox() {
-    const [questionAmount, setQuestionAmount] = useState("");
+function SetupBox({setUserQuestionAmount}) {
+    const [amount, setAmount] = useState("");
 
-    let navigate = useNavigate();
+    let nav = useNavigate();
 
     const handleSubmit = (event) => {
-        event.preventDefault();
-        console.log(questionAmount);
+        event.preventDefault(); 
+        setUserQuestionAmount(amount); /*sends user input to parent*/
+
         let path = "/quiz";
-        navigate(path);
+        nav(path);
     }
 
     return ( 
@@ -27,9 +28,8 @@ function SetupBox() {
                         placeholder="##" contentEditable = "true" pattern="^[0-9]+$"
                         required
                         min="1" max="104" maxLength="3"
-                        value = {questionAmount}
-                        onChange = {(e) => setQuestionAmount(e.target.value)}
-    
+                        value = {amount}
+                        onChange = {(e) => setAmount(e.target.value)}
                     />
                 </div>
                 <h3 id="setup-slash"> / </h3>
