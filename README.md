@@ -1,6 +1,6 @@
 # Hiragana Flashcards
 
-Hiragana Flashcards is a website that helps beginners with Japanese. The application quizzes the user on various hiragana characters, based on the user's desired amount. At the end of the quiz, the user's score is displayed, highlighting the questions answered correctly or incorrectly. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Hiragana Flashcards is a website that beginners study Japanese. The application quizzes the user on various hiragana characters, based on the user's desired amount. At the end of the quiz, the user's score is displayed, highlighting the questions answered correctly or incorrectly. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## What I Learned
 
