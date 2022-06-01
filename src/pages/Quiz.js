@@ -5,6 +5,8 @@ import QuizInput from '../components/QuizInput';
 import '../styles/Quiz.css';
 
 const Quiz = ({questionAmount}) => {
+    const [quizScore, setQuizScore] = useState(0);
+
     //now our state has the absolute quiz questions
     const [quizQuestions, setQuizQuestions] = useState([]);
 
@@ -38,7 +40,9 @@ const Quiz = ({questionAmount}) => {
     return (
         <div className="Quiz">
             <div className="quiz-content">
-                <h2>I'm a number {questionAmount} </h2>
+                <div className="quiz-title-box">
+                    <h1 id="quiz-title">{quizScore} <span id="out-of-qAmount"> / {questionAmount}</span></h1>
+                </div>
                 <QuizCard />
                 <QuizInput />
             </div>

@@ -2,7 +2,7 @@ import '../styles/Quiz.css';
 
 function QuizInput() {
     return ( 
-        <h1>Hello</h1>
+        <div className='quiz-input-box'></div>
      );
 }
 

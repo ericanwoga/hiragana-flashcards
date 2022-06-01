@@ -2,7 +2,7 @@ import '../styles/Quiz.css';
 
 function QuizCard() {
     return ( 
-        <h1>Hello</h1>
+        <div className='quiz-card-box'></div>
      );
 }
 

@@ -19,3 +19,48 @@
     height: 100%;
     width: 100%;
 }
+
+.quiz-title-box { /*top flex box*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 20%;
+    row-gap: 15px;
+}
+
+#quiz-title {
+    font-family: 'Kosugi Maru', sans-serif;
+    color :rgb(209, 153, 122);
+    text-align: center;
+    margin: 0px;
+    font-size: 350%;
+}
+
+.quiz-card-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgb(254,254,254);
+    border-radius: 7px;
+    height: 35%;
+    width: 250%;
+    margin-top: 20%;
+    margin-bottom: 10%;
+}
+
+.quiz-input-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgb(254,254,254);
+    border-radius: 7px;
+    height: 5%;
+    width: 100%;
+    margin-top: 20%;
+    margin-bottom: 10%;
+}
