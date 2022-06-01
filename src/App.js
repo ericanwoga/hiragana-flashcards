@@ -7,7 +7,7 @@ import Quiz from './pages/Quiz';
 import './styles/App.css';
 
 function App() {
-  const [userQuestionAmount, setUserQuestionAmount] = useState(1); /*Sets the user's desired question amount*/
+  const [userQuestionAmount, setUserQuestionAmount] = useState(); /*Sets the user's desired question amount*/
 
   return (
     <Router>

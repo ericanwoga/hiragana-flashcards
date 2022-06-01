@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=Quicksand:wght@300;400;500;600&display=swap');
+
+/*All the Quiz Page component styling*/
+
+.Quiz { /*all the content*/
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /*aligns vertically*/
+    align-items: center; /*aligns horizontally*/
+    height: 100%;
+    max-width: 615px; /*maximum size is a tablet*/
+}
+
+.quiz-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+    width: 100%;
+}
