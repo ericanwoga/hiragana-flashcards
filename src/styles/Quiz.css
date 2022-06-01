@@ -37,6 +37,14 @@
     font-size: 350%;
 }
 
+#quiz-subtitle { /*small mobile screen*/
+    font-family: 'Quicksand', sans-serif;
+    color :rgb(169, 108, 76);
+    margin: 0px;
+    text-align: center;
+    font-size: 130%;
+}
+
 .quiz-card-box {
     display: flex;
     flex-direction: row;
@@ -46,7 +54,7 @@
     background-color: rgb(254,254,254);
     border-radius: 7px;
     height: 35%;
-    width: 250%;
+    width: 150%;
     margin-top: 20%;
     margin-bottom: 10%;
 }
@@ -59,7 +67,7 @@
 
     background-color: rgb(254,254,254);
     border-radius: 7px;
-    height: 5%;
+    height: 7%;
     width: 100%;
     margin-top: 20%;
     margin-bottom: 10%;

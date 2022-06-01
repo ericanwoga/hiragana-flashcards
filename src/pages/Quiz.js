@@ -42,6 +42,7 @@ const Quiz = ({questionAmount}) => {
             <div className="quiz-content">
                 <div className="quiz-title-box">
                     <h1 id="quiz-title">{quizScore} <span id="out-of-qAmount"> / {questionAmount}</span></h1>
+                    <h2 id="quiz-subtitle">what is the hiragana below?</h2>
                 </div>
                 <QuizCard />
                 <QuizInput />
