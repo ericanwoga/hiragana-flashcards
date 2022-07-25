@@ -1,8 +1,9 @@
 import '../styles/Quiz.css';
 
-function QuizCard() {
+function QuizCard(quizQuestions) {
     return ( 
-        <div className='quiz-card-box'></div>
+        <div className='quiz-card-box'>
+        </div>
      );
 }
 

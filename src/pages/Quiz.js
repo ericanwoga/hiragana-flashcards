@@ -6,6 +6,7 @@ import '../styles/Quiz.css';
 
 const Quiz = ({questionAmount}) => {
     const [quizScore, setQuizScore] = useState(0);
+    const [questionNumber, setQuestionNumber] = useState(1);
 
     //now our state has the absolute quiz questions
     const [quizQuestions, setQuizQuestions] = useState([]);
@@ -20,9 +21,10 @@ const Quiz = ({questionAmount}) => {
             return Math.floor(Math.random() * 104);
         } 
 
+        //get a random number 
         let randomNum = randomNumber(0, 104);
 
-        //find a randmom number not in the array
+        //check to see if it's NOT in the array already
         while (numberArray.includes(randomNum)) {
             randomNum = randomNumber(0, 104);
         }
@@ -41,10 +43,10 @@ const Quiz = ({questionAmount}) => {
         <div className="Quiz">
             <div className="quiz-content">
                 <div className="quiz-title-box">
-                    <h1 id="quiz-title">{quizScore} <span id="out-of-qAmount"> / {questionAmount}</span></h1>
+                    <h1 id="quiz-title">{questionNumber} <span id="out-of-qAmount"> / {questionAmount}</span></h1>
                     <h2 id="quiz-subtitle">what is the hiragana below?</h2>
                 </div>
-                <QuizCard />
+                <QuizCard quizQuestions={quizQuestions}/>
                 <QuizInput />
             </div>
         </div> 
