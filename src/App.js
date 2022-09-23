@@ -14,7 +14,7 @@ function App() {
       <div className="App"> 
         <div className="content">
           <Routes> {/*All page routes will show inside the content section*/}
-            <Route exact path="/" element={<Start />} /> {/*Home page is called Start*/}
+            <Route exact path="/hiragana-flashcards" element={<Start />} /> {/*Home page is called Start*/}
             <Route exact path="/setup" element={<Setup setUserQuestionAmount={userQuestionAmount => setUserQuestionAmount(userQuestionAmount)}/>} />
             <Route exact path="/quiz" element={<Quiz questionAmount={userQuestionAmount}/>} />
           </Routes>
