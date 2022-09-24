@@ -1,27 +1,35 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { useState } from 'react';
-import Form from './components/Form';
+import {useState} from 'react'
 import Start from './pages/Start';
-import Setup from './pages/Setup';
-import Quiz from './pages/Quiz';
-
+import Setup from './pages/Setup'
+import Quiz from './pages/Quiz'
+import {StartContext} from './Contexts/StartContext';
 import './styles/App.css';
 
 function App() {
+  const [page, setPage] = useState("start-page"); /*Controls which page we are seeing*/
+  const [data, setData] = useState({
+    totalQuestions: 0,
+    correctAnswers: 0,
+    wrongAnswers: 0,
+  }); /*Controls the quiz data*/
+
+
+  /*The function display will show the correct component based on the page*/
+  function display() {
+    if(page == "start-page"){
+      /*Gives the start button the ability to setPage() to setup*/
+      return <StartContext.Provider value={{page, setPage}}><Start /></StartContext.Provider>
+    }else if (page == "setup-page"){
+      return <Setup/>
+    }else{
+      return <Quiz />
+    }
+  }
 
   return (
-    <Router>
       <div className="App"> 
-        <div className="content">
-          <Form />
-          <Routes> {/*All page routes will show inside the content section*/}
-            <Route exact path="/hiragana-flashcards" element={<Start />} /> {/*Home page is called Start*/}
-            <Route exact path="/setup" element={<Setup />} />
-            <Route exact path="/quiz" element={<Quiz />} />
-          </Routes>
-        </div>
+        {display()} {/*Call display*/}
       </div>
-    </Router>
   );
 }
 

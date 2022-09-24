@@ -1,19 +1,13 @@
 import React from 'react';
 import { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
 import SetupButton from "./SetupButton"
 import '../styles/Setup.css';
 
 function SetupBox() {
     const [amount, setAmount] = useState("");
 
-    let nav = useNavigate();
-
     const handleSubmit = (event) => {
         event.preventDefault(); 
-
-        let path = "/quiz"; /*Go to quiz after user inputs*/
-        nav(path);
     }
 
     return ( 

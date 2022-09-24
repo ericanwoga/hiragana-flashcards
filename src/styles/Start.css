@@ -69,9 +69,7 @@
     height: 20%;
     border: none;
     padding: 6px;
-}
 
-#start-button-text {
     font-size: 20px;
     font-weight: bold;
     font-family: 'Quicksand', sans-serif;
@@ -83,7 +81,7 @@
     cursor: pointer;
 }
 
-#start-button-text:hover {
+.start-button:hover {
     color: rgb(204, 119, 119);
 }
 
