@@ -17,18 +17,21 @@ function App() {
   /*The function display will show the correct component based on the page*/
   function display() {
     if(page == "start-page"){
-      /*Gives the start button the ability to setPage() to setup*/
-      return <StartContext.Provider value={{page, setPage}}><Start /></StartContext.Provider>
+      return <Start />
     }else if (page == "setup-page"){
       return <Setup/>
-    }else{
+    }else if (page == "quiz-page"){
       return <Quiz />
+    }else{
+      return <div>hi</div>
     }
   }
 
   return (
       <div className="App"> 
+      <StartContext.Provider value={{page, setPage, data, setData}}> {/*Gives access to parent states*/}
         {display()} {/*Call display*/}
+      </StartContext.Provider>
       </div>
   );
 }

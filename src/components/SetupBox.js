@@ -1,13 +1,15 @@
-import React from 'react';
-import { useState } from 'react';
-import SetupButton from "./SetupButton"
+import React, { useState, useContext } from 'react';
+import {StartContext} from '../Contexts/StartContext';
 import '../styles/Setup.css';
 
 function SetupBox() {
-    const [amount, setAmount] = useState("");
-
+    const {setPage, data, setData} = useContext(StartContext); /*So we can use setPage in this child component*/
+    const [amount, setAmount] = useState(""); /*The user inputs amount of questions*/
+    
     const handleSubmit = (event) => {
-        event.preventDefault(); 
+        event.preventDefault(); /*stops the erasure of input*/
+        setData({...data, totalQuestions: amount});
+        setPage("quiz-page");
     }
 
     return ( 
@@ -25,10 +27,10 @@ function SetupBox() {
                         onChange = {(e) => setAmount(e.target.value)}
                     />
                 </div>
-                <h3 id="setup-slash"> / </h3>
+                <h3 id="setup-slash">/</h3>
                 <h3 id="out-of-num">20</h3>
             </div>
-            <SetupButton /> 
+            <button id="setup-button-text">done</button> {/*submit button*/}
         </form>
      );
 }

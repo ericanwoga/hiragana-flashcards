@@ -1,14 +1,15 @@
-import { useState } from 'react';
-import SetupTitle from '../components/SetupTitle';
 import SetupBox from '../components/SetupBox';
 import '../styles/Setup.css';
 
-const Setup = () => {    
+function Setup(){    
 
     return ( 
         <div className="Setup">
             <div id="setup-form-content">
-                <SetupTitle />
+                <div className="setup-title-box">
+                <h1 id="setup-title">...</h1>
+                <h2 id="setup-subtitle">how many questions?</h2>
+                </div>
                 <SetupBox />
             </div>
         </div>
