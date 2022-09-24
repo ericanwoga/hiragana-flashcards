@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { useState } from 'react';
+import Form from './components/Form';
 import Start from './pages/Start';
 import Setup from './pages/Setup';
 import Quiz from './pages/Quiz';
@@ -7,16 +8,16 @@ import Quiz from './pages/Quiz';
 import './styles/App.css';
 
 function App() {
-  const [userQuestionAmount, setUserQuestionAmount] = useState(); /*Sets the user's desired question amount*/
 
   return (
     <Router>
       <div className="App"> 
         <div className="content">
+          <Form />
           <Routes> {/*All page routes will show inside the content section*/}
             <Route exact path="/hiragana-flashcards" element={<Start />} /> {/*Home page is called Start*/}
-            <Route exact path="/setup" element={<Setup setUserQuestionAmount={userQuestionAmount => setUserQuestionAmount(userQuestionAmount)}/>} />
-            <Route exact path="/quiz" element={<Quiz questionAmount={userQuestionAmount}/>} />
+            <Route exact path="/setup" element={<Setup />} />
+            <Route exact path="/quiz" element={<Quiz />} />
           </Routes>
         </div>
       </div>
