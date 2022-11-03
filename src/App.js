@@ -9,6 +9,7 @@ function App() {
   const [page, setPage] = useState("start-page"); /*Controls which page we are seeing*/
   const [data, setData] = useState({
     totalQuestions: 0,
+    questionList: [],
     correctAnswers: 0,
     wrongAnswers: 0,
   }); /*Controls the quiz data*/
@@ -16,6 +17,16 @@ function App() {
 
   /*The function display will show the correct component based on the page*/
   function display() {
+    switch (page){
+      case "start-page":
+        return <Start />
+      case "setup-page": 
+        return <Setup />
+      case "quiz-page":
+        return <Quiz />
+    }
+
+    /*
     if(page == "start-page"){
       return <Start />
     }else if (page == "setup-page"){
@@ -25,7 +36,7 @@ function App() {
     }else{
       return <div>hi</div>
     }
-  }
+  }*/
 
   return (
       <div className="App"> 
