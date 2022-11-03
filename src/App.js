@@ -35,8 +35,8 @@ function App() {
       return <Quiz />
     }else{
       return <div>hi</div>
-    }
-  }*/
+    }*/
+  }
 
   return (
       <div className="App"> 

@@ -8,7 +8,7 @@ function SetupBox() {
     
     const handleSubmit = (event) => {
         event.preventDefault(); /*stops the erasure of input*/
-        setData({...data, totalQuestions: amount});
+        setData({...data, totalQuestions: amount}); /*Only changes the total question amount*/
         setPage("quiz-page");
     }
 
@@ -22,13 +22,13 @@ function SetupBox() {
                         type="number" id="question-amount" name="question-amount" 
                         placeholder="##" contentEditable = "true" pattern="^[0-9]+$"
                         required
-                        min="1" max="20" maxLength="2"
+                        min="1" max="20" 
                         value = {amount}
-                        onChange = {(e) => setAmount(e.target.value)}
+                        onChange = {(e) => setAmount(e.target.value)} //puts it into setAmount 
                     />
                 </div>
                 <h3 id="setup-slash">/</h3>
-                <h3 id="out-of-num">20</h3>
+                <h3 id="out-of-num">30</h3>
             </div>
             <button id="setup-button-text">done</button> {/*submit button*/}
         </form>

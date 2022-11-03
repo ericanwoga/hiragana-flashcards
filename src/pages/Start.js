@@ -11,8 +11,9 @@ function Start() {
             <div className="entire-title">
                 <h1>ようこそ !</h1>
                 <h2>practice hiragana</h2>
-                <button className="start-button"
-                onClick={() => {setPage("setup-page")}}>start</button>
+                <button className="start-button"onClick={() => {setPage("setup-page")}}>
+                    start
+                </button>
             </div>
             <div className="start-art">
                 <img src={art} alt=""/>
