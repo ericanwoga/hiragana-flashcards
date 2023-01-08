@@ -5,7 +5,7 @@ import '../styles/Quiz.css';
 
 function Quiz() {
     const {setPage} = useContext(StartMenuContext);
-    
+    const [questionNumber, setQuestionNumber] = useState(1);
 
     return (
         <div className="Quiz">
