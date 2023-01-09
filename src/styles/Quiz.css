@@ -111,10 +111,7 @@
 }
 
 @media screen and (min-width: 650px){
-    .quiz-title-box {
-        margin-top: 10%;
-    }
-
+    
     #quiz-title {
         font-size: 9vh;
     }
