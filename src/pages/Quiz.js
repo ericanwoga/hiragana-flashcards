@@ -5,7 +5,7 @@ import '../styles/Quiz.css';
 
 function Quiz() {
     const {setPage, numOfQuestions, questionList} = useContext(StartMenuContext);
-    const [currentQuestion, setCurrentQuestion] = useState(() => 1);
+    const [currentQuestion, setCurrentQuestion] = useState(1);
 
     return (
         <div className="Quiz">

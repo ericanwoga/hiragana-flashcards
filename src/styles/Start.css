@@ -1,15 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=Quicksand:wght@300;400;500;600&display=swap');
 
 /*All the Start Page component styling*/
-
+.Start{
+    height: 101vh;
+    width: 70vw;
+    margin: 0px;
+    font-size: 16px;
+}
 .start-menu { /*all the content*/
     display: flex;
     flex-direction: column;
     justify-content:space-between; /*aligns vertically*/
     align-items: center; /*aligns horizontally*/
-    height: 101vh;
-    max-width: 768px; /*maximum size is a tablet*/
-    font-size: 16px;
+    width: 100%;
+    height: 100%;
 }
 
 .entire-title { /*top flex box*/
@@ -17,7 +21,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    margin-top: 20%;
+    margin-top: 10vh;
 }
 
 .entire-title h1{
@@ -25,7 +29,7 @@
 }
 
 .entire-title h2{
-    font-size: 190%;
+    font-size: 180%;
 }
 
 
@@ -34,10 +38,10 @@
 .start-button {
     font-family: 'Quicksand', sans-serif;
     background-color: rgb(254,254,254);
-    border-radius: 10px;
+    border-radius: 7px;
     width: 25%;
     border: none;
-    padding: 5px;
+    padding: 2px;
     margin-top: 5%;
 
     font-size: 120%;
@@ -64,43 +68,96 @@
 
 .start-art img {
     width: 95%;
-    height: 100%;
+    height: auto;
 }
 
-@media screen and (min-width: 650px){
+
+/*responsizivty*/
+
+/*Very small devicees*/
+@media screen and (max-width: 300px){ 
+    .Start{
+        width: 95vw;
+    }
+
     .entire-title h1 {
-        font-size: 900%;
+        font-size: 200%;
     }
 
     .entire-title h2 {
-        font-size: 400%;
+        font-size: 150%;
     }
 
     .start-button{
-        font-size: 300%;
+        font-size: 120%;
     }
 
     .start-art img{
-        height: 30vh;
-        width: 100%;
+        width: 90%;
+        height: auto;
     }
 }
 
-@media screen and (min-width: 769px){
-    .entire-title h1 {
-        font-size: 900%;
+/*Mobile*/
+@media screen and (min-width: 301px) and (max-width: 480px){ /*Mobile*/
+    .Start{
+        width: 95vw;
     }
 
-    .entire-title h2 {
+    .entire-title h1 {
         font-size: 400%;
     }
 
+    .entire-title h2 {
+        font-size: 200%;
+    }
+
     .start-button{
-        font-size: 300%;
+        font-size: 150%;
     }
 
     .start-art img{
-        height: 100%;
-        width: 100%;
+        width: 95%;
+        height: auto;
+    }
+}
+
+/*Tablet*/
+@media screen and (min-width: 650px) and (max-width: 760px){ 
+    .entire-title h1 {
+        font-size: 500%;
+    }
+
+    .entire-title h2 {
+        font-size: 250%;
+    }
+
+    .start-button{
+        font-size: 150%;
+    }
+
+    .start-art img{
+        width: 90%;
+        height: auto;
+    }
+}
+
+/*Laptop, Desktop*/
+@media screen and (min-width: 761px) { 
+    .entire-title h1 {
+        font-size: 500%;
+    }
+
+    .entire-title h2 {
+        font-size: 210%;
+    }
+
+    .start-button{
+        font-size: 150%;
+    }
+
+    .start-art img{
+        width: 60%;
+        height: auto;
     }
 }
