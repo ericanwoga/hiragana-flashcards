@@ -23,7 +23,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    margin-top: 10%;
+    margin-top: 20%;
 }
 
 #quiz-title {
@@ -39,49 +39,107 @@
     color :rgb(169, 108, 76);
     margin: 0px;
     text-align: center;
-    font-size: 200%;
+    font-size: 150%;
 }
 
-.card-and-input{
+.card-input-nav{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 50vw;
+    width: 80%;
 }
 
 .quiz-card-box {
     background-color: rgb(254,254,254);
     border-radius: 7px;
-    margin-top: 4vh;
-    margin-bottom: 2vh;
-    padding: 5vw;
-    width: 50%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 100%;
 
     font-family: 'Kosugi Maru', sans-serif;
     color : var(--accent-color1);
-    font-size: 600%;
+    font-size: 20vw;
+    padding: 8vw;
     text-align: center;
 }
 
-input[type=text]{
+.quiz-card-input{
     background-color: rgb(254,254,254);
     border-radius: 7px;
     border: none;
-    margin-top: 2vh;
-    margin-bottom: 2vh;
-    width: 70%;
-    padding: 1vw;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 120%;
 
     font-family: 'Quicksand', sans-serif;
     color :var(--subtitle-color);
     text-align: center;
-    font-size: 4vw;
+    font-size: 6vw;
+    padding: 2vw;
     font-weight: bolder;
 }
-input::placeholder{
+
+.quiz-card-input::placeholder{
     color :rgb(209, 153, 122, 0.3);
 }
-input:focus{
+.quiz-card-input:focus{
     outline: none;
+}
+
+.quiz-nav{
+    display: flex;
+    flex-direction: row;
+    color : var(--title-color);
+    width: 120%;
+    font-size: 6vw;
+    justify-content: space-between
+}
+
+.quiz-nav button{
+    background-color: rgb(254,254,254);
+    border-radius: 7px;
+    border: none;
+    padding: 2vw;
+    color: var(--subtitle-color);
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bolder;
+
+}
+.quiz-nav button:hover{
+    color: var(--hover-color);
+}
+
+@media screen and (min-width: 650px){
+    .quiz-title-box {
+        margin-top: 10%;
+    }
+
+    #quiz-title {
+        font-size: 9vh;
+    }
+    #quiz-subtitle {
+        font-size: 3.5vh;
+    }
+
+    .quiz-card-box{
+        font-size: 14vh;
+        padding: 5vh;
+    }
+
+    .quiz-card-input{
+        background-color: rgb(254,254,254);
+        border-radius: 7px;
+        border: none;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        font-size: 3.5vh;
+        padding: 1vh;
+    }
+
+    .quiz-nav button{
+        padding: 1vh;
+        font-size: 3.5vh;
+    }
+
 }
