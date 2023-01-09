@@ -7,8 +7,8 @@
     flex-direction: column;
     justify-content: flex-start; /*aligns vertically*/
     align-items: center; /*aligns horizontally*/
-    height: 100%;
-    max-width: 615px; /*maximum size is a tablet*/
+    height: 100vh;
+    width: 70vw;
 }
 
 .quiz-content {
@@ -16,8 +16,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    height: 100%;
-    width: 100%;
 }
 
 .quiz-title-box { /*top flex box*/
@@ -25,8 +23,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    margin-top: 20%;
-    row-gap: 15px;
+    margin-top: 10%;
 }
 
 #quiz-title {
@@ -34,7 +31,7 @@
     color :rgb(209, 153, 122);
     text-align: center;
     margin: 0px;
-    font-size: 350%;
+    font-size: 400%;
 }
 
 #quiz-subtitle { /*small mobile screen*/
@@ -42,33 +39,49 @@
     color :rgb(169, 108, 76);
     margin: 0px;
     text-align: center;
-    font-size: 130%;
+    font-size: 200%;
+}
+
+.card-and-input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
 }
 
 .quiz-card-box {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-
     background-color: rgb(254,254,254);
     border-radius: 7px;
-    height: 35%;
-    width: 150%;
-    margin-top: 20%;
-    margin-bottom: 10%;
+    margin-top: 4vh;
+    margin-bottom: 2vh;
+    padding: 5vw;
+    width: 50%;
+
+    font-family: 'Kosugi Maru', sans-serif;
+    color : var(--accent-color1);
+    font-size: 600%;
+    text-align: center;
 }
 
-.quiz-input-box {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-
+input[type=text]{
     background-color: rgb(254,254,254);
     border-radius: 7px;
-    height: 7%;
-    width: 100%;
-    margin-top: 20%;
-    margin-bottom: 10%;
+    border: none;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    width: 70%;
+    padding: 1vw;
+
+    font-family: 'Quicksand', sans-serif;
+    color :var(--subtitle-color);
+    text-align: center;
+    font-size: 4vw;
+    font-weight: bolder;
+}
+input::placeholder{
+    color :rgb(209, 153, 122, 0.3);
+}
+input:focus{
+    outline: none;
 }

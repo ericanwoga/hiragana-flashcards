@@ -4,11 +4,16 @@ import {StartMenuContext} from '../utils/Contexts';
 import '../styles/Setup.css';
 
 function Setup(){  
-    const {setPage} = useContext(StartMenuContext);
+    const {setPage, setQuestionList, setNumOfQuestions} = useContext(StartMenuContext);
 
     function handleSelection(e) {
-        generateQuiz(e.target.value);
-        setPage("quiz-page");
+        let userInput = Number(e.target.value);
+        setNumOfQuestions(userInput); //Set number of questions in quiz
+
+        let list = generateQuiz(userInput); //Get list of questions
+        setQuestionList(list); //Set list of questions
+
+        setPage("quiz-page"); //change the page 
     }
 
     return ( 

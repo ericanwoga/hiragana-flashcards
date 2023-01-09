@@ -5,7 +5,9 @@
   --button-color: rgb(255, 255, 255);
   --hover-color: rgb(204, 119, 119);
   --accent-color1: rgb(221, 180, 141);
-  --accent-color2: rgb(233, 175, 157);
+  --accent-color2: rgb(238, 144, 150);
+  --accent-color3: rgb(249, 206, 193);
+  --accent-color4: rgb(172, 148, 216);
 
   
 }
@@ -28,6 +30,20 @@ html {
     width: 100vw;
     margin: 0;
     font-family: 'Quicksand', sans-serif;
+  }
+
+  h1{
+    font-family: 'Kosugi Maru', sans-serif;
+    color:var(--title-color);;
+    text-align: center;
+    margin: 0px;
+    
+  }
+
+  h2{
+    color: var(--subtitle-color);
+    margin: 0px;
+    text-align: center;
   }
 
   

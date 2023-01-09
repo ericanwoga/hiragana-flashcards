@@ -26,9 +26,6 @@ function generateQuiz(numberOfQuestions){
     questionArray = numberArray.map(num => dictionary.hiraganaDictionary[num])
     console.log("Question array is:", questionArray); //tester
     return questionArray;
-    //setQuizQuestions(questionArray); 
-    //setData({...data,questionList: questionArray}); //Send questions to parent
-
 }
 
 export default generateQuiz;

@@ -17,44 +17,17 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    margin-top: 10vh;
-    row-gap: 15px;
+    margin-top: 20%;
 }
 
-.entire-title h1 {
-    font-family: 'Kosugi Maru', sans-serif;
-    color:var(--title-color);;
-    text-align: center;
-    margin: 0px;
-    font-size: 350%;
+.entire-title h1{
+    font-size: 400%;
 }
 
-.entire-title h2 { /*small mobile screen*/
-    color: var(--subtitle-color);
-    margin: 0px;
-    text-align: center;
-    font-size: 150%;
+.entire-title h2{
+    font-size: 190%;
 }
 
-@media screen and (min-width: 425px){ /*if a large mobile screen or smaller*/
-    .entire-title h1 {
-        font-size: 400%;
-    }
-
-    .entire-title h2 {
-        font-size: 180%;
-    }
-}
-
-@media screen and (min-width: 768px){ /*if a tablet screen or smaller*/
-    .entire-title h1 {
-        font-size: 600%;
-    }
-
-    .entire-title h2 {
-        font-size: 180%;
-    }
-}
 
 /*-------BUTTON-------*/
 
@@ -64,9 +37,10 @@
     border-radius: 10px;
     width: 25%;
     border: none;
-    padding: 6px;
+    padding: 5px;
+    margin-top: 5%;
 
-    font-size: 150%;
+    font-size: 120%;
     font-weight: bold;
     color:var(--accent-color1);
     text-align: center;
@@ -86,10 +60,47 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
-    row-gap: 30px; /*40 or 260*/
 }
 
-.start-art img { 
-    width: 100%;
-    height: 40vh;
+.start-art img {
+    width: 95%;
+    height: 100%;
+}
+
+@media screen and (min-width: 650px){
+    .entire-title h1 {
+        font-size: 900%;
+    }
+
+    .entire-title h2 {
+        font-size: 400%;
+    }
+
+    .start-button{
+        font-size: 300%;
+    }
+
+    .start-art img{
+        height: 30vh;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 769px){
+    .entire-title h1 {
+        font-size: 900%;
+    }
+
+    .entire-title h2 {
+        font-size: 400%;
+    }
+
+    .start-button{
+        font-size: 300%;
+    }
+
+    .start-art img{
+        height: 100%;
+        width: 100%;
+    }
 }
