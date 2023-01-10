@@ -1,3 +1,3 @@
 import { createContext } from "react";
 /*Context for the Start page button*/
-export const StartMenuContext = createContext({});
+export const GameContext = createContext({});

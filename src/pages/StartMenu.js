@@ -1,11 +1,11 @@
 import React, {useContext} from 'react';
-import {StartMenuContext} from '../utils/Contexts';
+import {GameContext} from '../utils/Contexts';
 import art from '../img/title-art.png';
 import '../styles/Start.css';
 
 function StartMenu() {
     /*get set page from StartMenu provider*/
-    const {setPage} = useContext(StartMenuContext);
+    const {setPage} = useContext(GameContext);
 
     return ( 
         <div className='Start'>

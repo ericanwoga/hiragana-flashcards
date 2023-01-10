@@ -1,10 +1,10 @@
 import generateQuiz from '../utils/Utils';
 import { useContext } from 'react';
-import {StartMenuContext} from '../utils/Contexts';
+import {GameContext} from '../utils/Contexts';
 import '../styles/Setup.css';
 
 function Setup(){  
-    const {setPage, setQuestionList, setNumOfQuestions} = useContext(StartMenuContext);
+    const {setPage, setQuestionList, setNumOfQuestions} = useContext(GameContext);
 
     function handleSelection(e) {
         let userInput = Number(e.target.value);
